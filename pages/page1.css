@@ -17,12 +17,13 @@ body {
 
 .flex-container{
     background-color: black;
-    min-height: 350px;
+    min-height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
     gap: 10px;
+    margin-top: -80px;
    
 }
 
@@ -81,7 +82,7 @@ body {
 }
 
 .top-card {
-    margin-bottom: 2px; /* Espaçamento entre os cards de cima */
+   /* margin-bottom: 2px;  Espaçamento entre os cards de cima */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +92,7 @@ body {
 }
 
 .bottom-card {
-    margin-top: 2px; /* Espaçamento entre os cards de baixo */
+    margin-top: -350px; /* Espaçamento entre os cards de baixo */
     display: flex;
     justify-content: center;
     align-items: center;
